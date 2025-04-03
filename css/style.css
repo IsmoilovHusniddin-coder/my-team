@@ -723,14 +723,18 @@
 
 .form-btn {
   padding: 9px 32px 11px;
-  border: none;
-  background-color: #fff;
-  color: #004047;
+  border: 2px solid #fff;
+  background-color: #014e56;
+  color: #fff;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0px;
   border-radius: 24px;
+}
+.form-btn:hover {
+  color: #014e56;
+  background-color: #fff;
 }
 
 /* contact-tablet-start */
