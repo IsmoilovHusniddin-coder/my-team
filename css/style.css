@@ -453,6 +453,7 @@
   .deliv-content-wrapper {
     text-align: center;
     margin: 0 auto;
+    max-width: 80%;
   }
 }
 @media (max-width: 850px) {
@@ -466,6 +467,9 @@
   }
   .deliv-title span {
     font-size: 32px;
+  }
+  .deliv-content-wrapper {
+    max-width: 100%;
   }
 }
 /* deliv-tablet-end */
